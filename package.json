@@ -1,0 +1,23 @@
+{
+  "name": "simple-node-api-web",
+  "version": "1.0.0",
+  "description": "Simple Node.js API website \u2014 developer Mr Senal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "update:packages": "npx npm-check-updates -u && npm install"
+  },
+  "author": "Mr Senal",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "npm-check-updates": "^16.0.2"
+  }
+}
